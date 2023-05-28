@@ -1,0 +1,48 @@
+{
+  "name": "ahj-animation",
+  "version": "1.0.0",
+  "description": "ahj8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "author": "MargaritaIko",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-jest": "^29.1.2",
+    "babel-loader": "^8.3.0",
+    "bootstrap": "^5.2.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "http-server": "^14.1.1",
+    "jest": "^29.1.2",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.7.6",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "add": "^2.0.6",
+    "core-js": "^3.30.2"
+  }
+}
